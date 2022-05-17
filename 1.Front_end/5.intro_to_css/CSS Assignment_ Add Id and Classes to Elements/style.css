@@ -1,0 +1,24 @@
+/*-----header-----*/
+header {
+    height: 400px;
+}
+#about_site{
+    color:grey;
+}
+
+/*-----main-----*/
+article {
+    width: 1000px;
+}
+
+h1 {
+    font-size: 40px;
+    color: darkslategrey;
+}
+
+p {
+    color: dimgrey;
+}
+.h_style{
+    color: darkslategrey;
+}
