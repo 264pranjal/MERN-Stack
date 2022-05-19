@@ -1,0 +1,35 @@
+/*-----header-----*/
+#site-title a {
+    font-size: 1.8rem;
+    color: #1a1a1a;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#site-title a:hover {
+    color: #dc6520;
+}
+
+#about-site {
+    color: #3c5349;
+}
+img{
+    width:100%;
+}
+#logo{
+    width:210px;
+}
+
+/*-----main-----*/
+#blog-header h1 {
+    color: #13222c;
+    font-family: sans-serif;
+}
+
+#blog-content {
+    width: 90vw;
+}
+
+.h-style {
+    color: #13222c;
+}
