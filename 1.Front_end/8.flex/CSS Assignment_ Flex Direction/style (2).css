@@ -1,0 +1,65 @@
+body {
+    font-family: monospace;
+    background-color: #e2fffd;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: white;
+    background-color: darkslategrey;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#box {
+    width: 330px;
+    height: 330px;
+    background-color: #ffffff;
+    margin: 100px auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#box div {
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+}
+
+#ball1 {
+    height: 30px;
+    width: 30px;
+    background-color: #ff9bc9;
+}
+
+#ball2 {
+    height: 40px;
+    width: 40px;
+    background-color: #df8eff;
+}
+
+#ball3 {
+    height: 50px;
+    width: 50px;
+    background-color: #91dcff;
+}
+
+#ball4 {
+    height: 60px;
+    width: 60px;
+    background-color: #93ff99;
+}
+
+#ball5 {
+    height: 70px;
+    width: 70px;
+    background-color: #dfff89;
+}
+
+#ball6 {
+    height: 80px;
+    width: 80px;
+    background-color: #ffdf8e;
+}
