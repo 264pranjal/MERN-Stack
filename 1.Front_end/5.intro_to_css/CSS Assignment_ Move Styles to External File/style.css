@@ -1,3 +1,31 @@
-#heading{
-    color:darkslategrey;
+/*-----header-----*/
+#main-header {
+    height: 400px;
+}
+
+#about-site {
+    color: grey;
+}
+#blog_link{
+    font-size:28px;
+    color:black;
+}
+#blog_link:hover{
+    color:orange;
+}
+
+
+/*-----main-----*/
+h1 {
+    font-size: 40px;
+    color: darkslategrey;
+    font-family: sans-serif;
+}
+
+#blog-content {
+    width: 1000px;
+}
+
+.h-style {
+    color: darkslategrey;
 }
