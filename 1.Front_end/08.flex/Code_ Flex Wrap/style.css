@@ -1,0 +1,246 @@
+body {
+    font-family: monospace;
+    background-color: #e2fffd;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: white;
+    background-color: darkslategrey;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+/*direction - row flex wrap- no wrap*/
+#box {
+    width: 330px;
+    height: 240px;
+    background-color: #ffffff;
+    margin: 100px auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+}
+#box div {
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+}
+/*direction - row flex wrap- wrap*/
+#box1 {
+    width: 330px;
+    height: 240px;
+    background-color: #ffffff;
+    margin: 100px auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+#box1 div {
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+}
+/*direction - row flex wrap- wrap-reverse*/
+#box2 {
+    width: 330px;
+    height: 240px;
+    background-color: #ffffff;
+    margin: 100px auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap-reverse;
+}
+#box2 div {
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+}
+
+/*direction - row-revese flex wrap- no wrap*/
+#box3 {
+    width: 330px;
+    height: 240px;
+    background-color: #ffffff;
+    margin: 100px auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap:nowrap;
+}
+#box3 div {
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+}
+/*direction - row-reverse flex wrap- wrap*/
+#box4 {
+    width: 330px;
+    height: 240px;
+    background-color: #ffffff;
+    margin: 100px auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap:wrap;
+}
+#box4 div {
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+}
+/*direction - row-reverse flex wrap- wrap-reverse*/
+#box5 {
+    width: 330px;
+    height: 240px;
+    background-color: #ffffff;
+    margin: 100px auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap:wrap-reverse;
+}
+#box5 div {
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+}
+/*direction - column flex wrap- no wrap*/
+#box6 {
+    width: 330px;
+    height: 240px;
+    background-color: #ffffff;
+    margin: 100px auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+}
+#box6 div {
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+}
+/*direction - column flex wrap- wrap*/
+#box7 {
+    width: 330px;
+    height: 240px;
+    background-color: #ffffff;
+    margin: 100px auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+#box7 div {
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+}
+/*direction - column flex wrap- wrap-reverse*/
+#box8 {
+    width: 330px;
+    height: 240px;
+    background-color: #ffffff;
+    margin: 100px auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap-reverse;
+}
+#box8 div {
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+}
+/*direction - column-reverse flex wrap- no wrap*/
+#box9 {
+    width: 330px;
+    height: 240px;
+    background-color: #ffffff;
+    margin: 100px auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap:nowrap;
+}
+#box9 div {
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+}
+/*direction - column-reverse flex wrap- wrap*/
+#box10 {
+    width: 330px;
+    height: 240px;
+    background-color: #ffffff;
+    margin: 100px auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap:wrap;
+}
+#box10 div {
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+}
+/*direction - column-reverse flex wrap- wrap-reverse*/
+#box11 {
+    width: 330px;
+    height: 240px;
+    background-color: #ffffff;
+    margin: 100px auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap:wrap-reverse;
+}
+#box11 div {
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+}
+
+
+
+
+
+#ball1 {
+    height: 30px;
+    width: 30px;
+    background-color: #ff9bc9;
+}
+
+#ball2 {
+    height: 50px;
+    width: 50px;
+    background-color: #df8eff;
+}
+
+#ball3 {
+    height: 70px;
+    width: 70px;
+    background-color: #91dcff;
+}
+
+#ball4 {
+    height: 90px;
+    width: 90px;
+    background-color: #93ff99;
+}
+
+#ball5 {
+    height: 110px;
+    width: 110px;
+    background-color: #dfff89;
+}
+
+#ball6 {
+    height: 130px;
+    width: 130px;
+    background-color: #ffdf8e;
+}

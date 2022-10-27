@@ -1,0 +1,19 @@
+body {
+    background-image: url(macbook_mouse.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+header h1 {
+    line-height: 40vw;
+    z-index: 10;
+}
+
+main .card {
+    min-height: 350px;
+}
+
+main .card p {
+    min-height: 250px;
+}

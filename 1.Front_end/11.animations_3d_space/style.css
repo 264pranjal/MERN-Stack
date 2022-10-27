@@ -1,0 +1,94 @@
+.scene {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 40px 0;
+    perspective: 600px;
+    }
+    .card {
+        width: 100%;
+        height: 100%;
+        transition: transform 0.5s;
+        transform-style: preserve-3d;
+        position: relative;
+        }   
+        .card_face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            line-height: 200px;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            font-size: 40px;
+            }
+            .card:hover {
+                transform: rotateY(180deg);
+                }
+            
+            .card_face-front {
+            background-color: maroon;
+            color: blue;
+            }
+            .card_face-back {
+            transform: rotateY(180deg);
+            }
+
+.cube{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    margin: 100px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    transform: rotateX(25deg) rotateY(-25deg);
+    animation: bounce 3s ease-in-out infinite alternate;
+}
+.face{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    
+}
+.one{
+    background-color: aqua;
+}
+.two{
+    background-color: rgb(47, 255, 0);
+    transform: rotateY(180deg) translateZ(-200px) translateY(0px);
+}
+.three{
+    background-color: rgb(255, 8, 0);
+    transform: rotateY(90deg) translateZ(-100px) translateX(-100px);
+}
+.four{
+    background-color: rgb(255, 0, 157);
+    transform: rotateY(90deg) translateZ(100px) translateX(-100px);
+}
+.five{
+    background-color: rgb(153, 112, 231);
+    transform: rotateX(90deg) translateY(100px) translateZ(100px);
+}
+.six{
+    background-color: rgb(255, 247, 0);
+    transform: rotateX(90deg) translateY(100px) translateZ(-100px);
+}
+.cube:hover{
+    transform: rotateX(360deg) rotateY(-360deg) rotateZ(360deg);
+    transform: rotateY(90deg) translateZ(-100px) translateX(-100px);
+}
+        
+@keyframes bounce {
+    from{
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+    50%{
+        transform: rotateX(90deg) rotateY(90deg) rotateZ(360deg);
+    }
+    to{
+        transform: rotateX(360deg) rotateY(-180deg) rotateZ(360deg);
+    }
+}
+            

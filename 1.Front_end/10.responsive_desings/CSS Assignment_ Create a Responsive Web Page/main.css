@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.resp {
+    width: 32%;
+    margin: 0.44%;
+    height: 300px;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+    .resp {
+        width: 100%;
+        display: block;
+        margin: 0;
+    }
+}
+
+.c-red {
+    background-color: #ff8989;
+}
+
+.c-green {
+    background-color: #88f7ce;
+}
+
+.c-purple {
+    background-color: #e29df2;
+}
